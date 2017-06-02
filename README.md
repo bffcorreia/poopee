@@ -30,7 +30,7 @@ This project should be developed using the best practices listed below:
 1. When the task is completed, create a new **Pull Request**.
 1. Move your task to **Code Review** stack.
 1. Someone else will **review** your code.
-    1. If you receive a ðŸ‘ **merge** it away and **delete** the branch.
+    1. If you receive a 👍  **merge** it away and **delete** the branch.
     1. Otherwise, fix it and ask the reviewer to check your changes.
 1. Review any **Pull Requests** in the queue.
 1. Eat, sleep, work and repeat!
