@@ -6,6 +6,6 @@ class RateContract {
   interface Presenter {
     fun start(view: View)
 
-    fun stop()
+    fun onReviewClicked(rate: Int, clean: Int, privacy: Int, style: Int)
   }
 }
