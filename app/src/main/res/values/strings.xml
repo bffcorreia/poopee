@@ -1,3 +1,7 @@
 <resources>
   <string name="app_name">Poopee</string>
+  <string name="facebook_app_id">103126653621156</string>
+  <string name="login_with_facebook">Login with Facebook</string>
+  <string name="authentication_failed">Authentication failed.</string>
+  <string name="something_went_wrong">Something went wrong.</string>
 </resources>

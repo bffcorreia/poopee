@@ -1,6 +1,8 @@
 package io.bffcorreia.poopee.presentation
 
 import android.os.Bundle
+import android.support.annotation.StringRes
+import android.support.design.widget.Snackbar
 import android.support.v7.app.AppCompatActivity
 import butterknife.ButterKnife
 import io.bffcorreia.poopee.common.AndroidApplication
@@ -23,6 +25,14 @@ abstract class BaseActivity : AppCompatActivity() {
   protected abstract val layoutRes: Int
 
   protected abstract fun initializeInjector()
+
+  fun showSnackbar(@StringRes stringRes: Int) {
+    Snackbar.make(findViewById(android.R.id.content), stringRes, Snackbar.LENGTH_LONG).show()
+  }
+
+  fun showSnackbar(message: String) {
+    Snackbar.make(findViewById(android.R.id.content), message, Snackbar.LENGTH_LONG).show()
+  }
 
   private fun initActivityComponent() {
     activityComponent = applicationComponent().plus(ActivityModule(this))

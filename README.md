@@ -1,5 +1,7 @@
 # Poopee
 
+[![BuddyBuild](https://dashboard.buddybuild.com/api/statusImage?appID=5931ef12c5a55b00016d54f9&branch=master&build=latest)](https://dashboard.buddybuild.com/apps/5931ef12c5a55b00016d54f9/build/latest?branch=master)
+
 What the Hack crazy App!
 
 ## Development
