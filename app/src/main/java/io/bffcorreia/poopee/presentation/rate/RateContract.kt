@@ -1,7 +1,9 @@
 package io.bffcorreia.poopee.presentation.rate
 
 class RateContract {
-  interface View
+  interface View {
+    fun onBackPressed()
+  }
 
   interface Presenter {
     fun start(view: View)
