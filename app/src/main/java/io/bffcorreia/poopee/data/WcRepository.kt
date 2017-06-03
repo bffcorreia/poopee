@@ -17,11 +17,12 @@ class WcRepository @Inject constructor() {
     val bestReview = Review(5, 5, 5, 5)
     val normalReview = Review(3, 3, 4, 3)
     val badReview = Review(1, 1, 2, 1)
-    wcs.add(Wc(Date(), Date(), "bruno", "asdfgh", 1.02f, "http://goo.gl/iWJc4m", 5f, 5f, 5f, 5f,
+    val imageSrc = "http://i.imgur.com/m3AqN0N.jpg"
+    wcs.add(Wc(Date(), Date(), "bruno", "asdfgh", 1.02f, imageSrc, 5f, 5f, 5f, 5f,
         Arrays.asList(bestReview)))
-    wcs.add(Wc(Date(), Date(), "mario", "vladmir", 2.5f, "http://goo.gl/iWJc4m", 4f, 4f, 4f, 4f,
+    wcs.add(Wc(Date(), Date(), "mario", "vladmir", 2.5f, imageSrc, 4f, 4f, 4f, 4f,
         Arrays.asList(bestReview, normalReview)))
-    wcs.add(Wc(Date(), Date(), "andre", "niculau", 0.5f, "http://goo.gl/iWJc4m", 3f, 3f, 3f, 3f,
+    wcs.add(Wc(Date(), Date(), "andre", "niculau", 0.5f, imageSrc, 3f, 3f, 3f, 3f,
         Arrays.asList(badReview)))
     return wcs
   }
