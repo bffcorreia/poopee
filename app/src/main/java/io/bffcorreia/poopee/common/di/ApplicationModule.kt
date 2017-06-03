@@ -1,6 +1,8 @@
 package io.bffcorreia.poopee.common.di
 
 import android.content.Context
+import com.facebook.login.LoginManager
+import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides
 import io.bffcorreia.poopee.common.AndroidApplication
@@ -27,5 +29,13 @@ import javax.inject.Singleton
 
   @Provides @Singleton @Named(Executor.IO) internal fun provideIoScheduler(): Scheduler {
     return Schedulers.io()
+  }
+
+  @Provides @Singleton internal fun provideFirebaseAuth(): FirebaseAuth {
+    return FirebaseAuth.getInstance()
+  }
+
+  @Provides @Singleton internal fun provideFacebookLoginManager(): LoginManager {
+    return LoginManager.getInstance()
   }
 }

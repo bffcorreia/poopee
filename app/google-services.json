@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "333704845376",
+    "firebase_url": "https://poopee-91bd2.firebaseio.com",
+    "project_id": "poopee-91bd2",
+    "storage_bucket": "poopee-91bd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333704845376:android:241778829c9f5ae2",
+        "android_client_info": {
+          "package_name": "io.bffcorreia.poopee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333704845376-4u1cfj4s3a3hij89rfu24ltv6h9jj67j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.bffcorreia.poopee",
+            "certificate_hash": "a16455fc1c34ef314516d19e00af55493a43e343"
+          }
+        },
+        {
+          "client_id": "333704845376-q2neur98rvsmjjpioruthifsic4epiam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu-kOBT93-XGdXdX2126Rn6UjiRl1a_b0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333704845376-q2neur98rvsmjjpioruthifsic4epiam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
