@@ -20,14 +20,12 @@ import javax.inject.Inject
   fun navigateToRate() {
     val intent = Intent(activity, RateActivity::class.java)
     activity.startActivity(intent)
-    activity.finish()
   }
 
   fun navigateToWc(wc: Wc) {
     val intent = Intent(activity, WcActivity::class.java)
     intent.putExtra("wc", wc)
     activity.startActivity(intent)
-    activity.finish()
   }
 }
 
