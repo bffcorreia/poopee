@@ -25,11 +25,11 @@ class WcRepository @Inject constructor() {
     arr2.add(bestReview)
     arr2.add(normalReview)
     arr3.add(badReview)
-    wcs.add(Wc(Date(), Date(), "bruno", "asdfgh", 1.02f, imageSrc, 5f, 5f, 5f, 5f,
+    wcs.add(Wc(Date(), Date(), "-", "Pav. de Portugal 1", 0.0f, imageSrc, 5f, 5f, 5f, 5f,
         arr1))
-    wcs.add(Wc(Date(), Date(), "mario", "vladmir", 2.5f, imageSrc, 4f, 4f, 4f, 4f,
+    wcs.add(Wc(Date(), Date(), "-", "Pav. de Portugal 2", 0.0f, imageSrc, 4f, 4f, 4f, 4f,
         arr2))
-    wcs.add(Wc(Date(), Date(), "andre", "niculau", 0.5f, imageSrc, 3f, 3f, 3f, 3f,
+    wcs.add(Wc(Date(), Date(), "1234", "Pav. de Portugal VIP", 1.5f, imageSrc, 3f, 3f, 3f, 3f,
         arr3))
     return wcs
   }

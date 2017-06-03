@@ -4,4 +4,5 @@
   <string name="login_with_facebook">Login with Facebook</string>
   <string name="authentication_failed">Authentication failed.</string>
   <string name="something_went_wrong">Something went wrong.</string>
+  <string name="less_than"><![CDATA[<]]></string>
 </resources>

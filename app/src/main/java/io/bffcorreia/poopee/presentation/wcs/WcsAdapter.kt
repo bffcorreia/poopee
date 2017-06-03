@@ -32,6 +32,7 @@ import javax.inject.Named
     holder.distanceView.text = Random().nextInt(500).toString() + "m"
     holder.priceView.text = wc.price.toString()
     holder.rateView.text = wc.avgRate.toString()
+    holder.locationView.text = wc.location
   }
 
   override fun getItemCount(): Int {

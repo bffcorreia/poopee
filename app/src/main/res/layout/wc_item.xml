@@ -3,8 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:elevation="2dp"
     android:layout_marginBottom="4dp"
+    android:elevation="2dp"
     >
 
   <LinearLayout
@@ -29,29 +29,10 @@
           />
 
       <TextView
+          android:id="@+id/wc_location"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginEnd="@dimen/margin_default"
-          android:text="Distance: "
-          />
-
-      <TextView
-          android:id="@+id/distance"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_marginEnd="@dimen/margin_default"
-          />
-
-      <TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="Price: "
-          />
-
-      <TextView
-          android:id="@+id/price"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
           />
     </LinearLayout>
 
@@ -71,12 +52,40 @@
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/margin_small"
+          android:text="@string/less_than"
+          />
+
+      <TextView
+          android:id="@+id/distance"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
           android:layout_marginEnd="@dimen/margin_default"
-          android:text="Rate: "
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/margin_small"
+          android:text="Rate:"
           />
 
       <TextView
           android:id="@+id/rate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/margin_default"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="@dimen/margin_small"
+          android:text="Price:"
+          />
+
+      <TextView
+          android:id="@+id/price"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           />

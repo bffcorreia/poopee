@@ -41,7 +41,7 @@ class WcActivity(override val layoutRes: Int = R.layout.activity_wc) : BaseActiv
   }
 
   override fun showWc(wc: Wc) {
-    wcLocation.text = "Location: " + wc.location
+    wcLocation.text = wc.location
     wcPrice.text = "Price: " + wc.price.toString() + "€"
     wcCode.text = "Pin code: " + wc.code
     Picasso.with(this).load(wc.photoUrl).centerCrop().resize(200, 200).into(wcPhoto)
