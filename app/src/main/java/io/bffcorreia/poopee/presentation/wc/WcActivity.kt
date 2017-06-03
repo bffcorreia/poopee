@@ -19,6 +19,7 @@ class WcActivity(override val layoutRes: Int = R.layout.activity_wc) : BaseActiv
   @BindView(R.id.wc_code) lateinit var wcCode: TextView
   @BindView(R.id.wc_price) lateinit var wcPrice: TextView
   @BindView(R.id.wc_photo) lateinit var wcPhoto: ImageView
+  @BindView(R.id.wc_map) lateinit var wcMap: ImageView
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -45,6 +46,7 @@ class WcActivity(override val layoutRes: Int = R.layout.activity_wc) : BaseActiv
     wcPrice.text = "Price: " + wc.price.toString() + "€"
     wcCode.text = "Pin code: " + wc.code
     Picasso.with(this).load(wc.photoUrl).centerCrop().resize(200, 200).into(wcPhoto)
+    Picasso.with(this).load("https://www.google.com/permissions/images/maps-att.png").fit().into(wcMap)
   }
 
   @OnClick(R.id.wc_rate_button) fun onRateButtonClicked() {
