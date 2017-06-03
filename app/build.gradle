@@ -73,6 +73,8 @@ dependencies {
   compile 'com.google.firebase:firebase-core:10.0.1'
   compile 'com.google.firebase:firebase-auth:10.0.1'
   compile 'com.kelvinapps:rxfirebase:0.0.15'
+  // Images
+  compile 'com.squareup.picasso:picasso:2.5.2'
   // Shared Tests
   testCompile 'com.github.blocoio:faker:1.2.5'
   androidTestCompile 'com.github.blocoio:faker:1.2.5'
