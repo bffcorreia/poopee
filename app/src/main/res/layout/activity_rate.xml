@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_default"
+    >
 
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Rate"
+      />
+
+  <SeekBar
+      android:id="@+id/rate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:max="5"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Clean"
+      />
+
+  <SeekBar
+      android:id="@+id/clean"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:max="5"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Privacy"
+      />
+
+  <SeekBar
+      android:id="@+id/privacy"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:max="5"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Style"
+        />
+
+    <SeekBar
+        android:id="@+id/style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"
+        />
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/review"
+      android:layout_width="100dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center_horizontal"
+      android:text="Review"
+      />
 </LinearLayout>
