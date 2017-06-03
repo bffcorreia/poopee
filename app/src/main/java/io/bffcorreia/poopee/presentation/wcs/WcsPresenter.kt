@@ -30,7 +30,7 @@ import javax.inject.Inject
   override fun wcClickListener(): ItemClickListener<Wc> {
     return object : ItemClickListener<Wc> {
       override fun onItemClick(item: Wc) {
-        Timber.i(item.location)
+        navigator.navigateToWc(item)
       }
     }
   }
