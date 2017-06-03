@@ -90,6 +90,7 @@
           android:background="#673AB7"
           >
         <TextView
+            android:id="@+id/rate"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -107,6 +108,7 @@
           android:background="#009688"
           >
         <TextView
+            android:id="@+id/clean"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -124,6 +126,7 @@
           android:background="#2196F3"
           >
         <TextView
+            android:id="@+id/privacy"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
@@ -141,6 +144,7 @@
           android:background="#F44336"
           >
         <TextView
+            android:id="@+id/style"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
