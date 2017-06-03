@@ -22,6 +22,9 @@
     </activity>
 
     <activity android:name=".presentation.cards.CardsActivity"/>
+    <activity android:name=".presentation.wcs.WcsActivity"/>
+    <activity android:name=".presentation.wc.WcActivity"/>
+    <activity android:name=".presentation.rate.RateActivity"/>
 
     <meta-data
         android:name="com.facebook.sdk.ApplicationId"
